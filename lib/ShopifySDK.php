@@ -74,6 +74,7 @@ use PHPShopify\Exception\SdkException;
  * @property-read Customer $Customer
  * @property-read CustomerSavedSearch $CustomerSavedSearch
  * @property-read Discount $Discount
+ * @property-read DraftOrder $DraftOrder
  * @property-read Event $Event
  * @property-read FulfillmentService $FulfillmentService
  * @property-read GiftCard $GiftCard
@@ -107,6 +108,7 @@ use PHPShopify\Exception\SdkException;
  * @method Customer Customer(integer $id = null)
  * @method CustomerSavedSearch CustomerSavedSearch(integer $id = null)
  * @method Discount Discount(integer $id = null)
+ * @method DraftOrder DraftOrder(integer $id = null)
  * @method Event Event(integer $id = null)
  * @method FulfillmentService FulfillmentService(integer $id = null)
  * @method GiftCard GiftCard(integer $id = null)
@@ -166,6 +168,7 @@ class ShopifySDK
         'Customer',
         'CustomerSavedSearch',
         'Discount',
+        'DraftOrder',
         'Event',
         'FulfillmentService',
         'GiftCard',
